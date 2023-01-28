@@ -1,0 +1,124 @@
+.principal{
+    margin-top: -1.875rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    justify-content: center;
+    align-items: center;
+    height: 46vw;
+    width: 25vw;
+    border-radius: 10px;
+    row-gap: 3em;
+}
+
+.principal__tela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3em;
+    width: 25vw;
+    height: 30vw;
+}
+
+.principal__titulo{
+    font-size: 1.875rem;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    
+}
+
+.principal__campo{
+    border: 1px solid gray;
+    width: 20vw;
+    padding: 8px;
+    border-radius: 5px;
+    margin: -1em 0;
+    height: 16px;
+}
+
+.user{
+    font-size: 0.75rem;
+}
+
+.senha::placeholder{
+    font-size: 0.75rem;
+    background: url('../img/eye-close.png') no-repeat; 
+    background-position: 20em;
+    background-size: 2em;
+}
+
+.principal__login{
+    background-color: var(--azul);
+    width: 20vw;
+    padding: 0.5em;
+    border-radius: 0.3125rem;
+    font-size: 0.75rem;
+    color: var(--branco);
+    cursor: pointer;
+}
+
+.principal__login:hover{
+    transform: scale(1.05);
+}
+
+.principal__or{
+    display: flex;
+    width: 25vw;
+}
+
+.principal__or hr{
+    width: 7vw;
+}
+
+.reset__senha{
+    color: var(--azul);
+    font-size: 0.75rem;
+    font-weight: bold;
+    width: 20vw;
+    text-align: right;
+    margin-top: -13px;
+}
+
+.reset__senha a:hover{
+    border-bottom: solid 1px;
+}
+
+.face__icon{
+    height: 80%;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+}
+
+.login__face{
+    font-size: 0.75rem;
+    color: var(--azul);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 2vw;
+    row-gap: 1.5em;
+}
+
+.rodape hr{
+    width: 25vw;
+    color: gray;
+}
+
+.rodape p{
+    font-size: 0.75rem;
+}
+
+.rodape a{
+    color: var(--azul);
+    font-weight: bold;
+}
+

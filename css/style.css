@@ -1,0 +1,18 @@
+@import url(tela.css);/*IMPORTA UM OUTRO ARQUIVO CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+:root{
+    --azul: #0097ff;
+    --branco: #ffffff;
+}
+
+body{
+    background-image: linear-gradient(135deg,#525bd7, #5f53d2, #8939c3,#a630af, #ba2e97,#e2435b, #f16a35,#f16d38, #fb8527,#fb8527 );
+    height: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
